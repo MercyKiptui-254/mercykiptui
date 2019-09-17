@@ -1,0 +1,70 @@
+html,body{
+	background: url('images/bghome.png') no-repeat center fixed;
+	background-size: cover;
+
+}
+
+
+
+.menu{
+	margin-top: 110px;
+	display: flex;
+	flex-direction: justify;
+	text-align: center; 
+	background-color:#E78312;
+    color:#FFFFFF;
+	text-shadow:inherit;
+	
+}
+
+}
+
+.menu a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.menu a:hover {
+  background-color: #ddd;
+  color: #999999;
+}
+
+.menu a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+ul {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+li {
+
+  width: 33%; 
+  margin-top:110px;
+  float: left;
+  background-color: #D68222;
+}
+
+li a {
+  
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+li a:hover {
+  background-color: #111;
+}
